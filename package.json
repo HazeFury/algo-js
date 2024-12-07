@@ -1,0 +1,15 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "jest",
+    "test:one": "jest --findRelatedTests"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
