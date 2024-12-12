@@ -18,8 +18,14 @@
 //     { nom: "Bob", note: 12 }
 // ]
 
+/**
+ * Fonction qui trie un tableau d'étudiants par note décroissante.
+ * @param {Array<{nom: string, note: number}>} etudiants - Un tableau d'objets représentant les étudiants.
+ * @returns {Array<{nom: string, note: number}>} - Un tableau trié par note décroissante.
+ */
+//
+//
 function trierEtudiantsParNote(etudiants) {
-  // écris le code ici
+  // Utilise la méthode sort pour trier par note décroissante
+  return etudiants.sort((a, b) => b.note - a.note);
 }
-
-module.exports = trierEtudiantsParNote;

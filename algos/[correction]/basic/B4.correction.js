@@ -21,5 +21,3 @@ function filtrerNombresPairs(nombres) {
   // Utilise la méthode filter pour garder uniquement les nombres pairs
   return nombres.filter((nombre) => nombre % 2 === 0);
 }
-
-module.exports = filtrerNombresPairs;

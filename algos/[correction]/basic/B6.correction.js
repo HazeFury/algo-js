@@ -31,5 +31,3 @@ function sommeNombresImpairs(nombres) {
   // Retourne la somme totale
   return somme;
 }
-
-module.exports = sommeNombresImpairs;
