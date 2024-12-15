@@ -35,5 +35,3 @@ function compterVoyelles(mots) {
 
   return totalVoyelles;
 }
-
-module.exports = compterVoyelles;

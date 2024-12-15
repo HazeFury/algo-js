@@ -21,5 +21,3 @@ function filtrerMotsLongs(mots) {
   // Utilise la méthode filter pour garder les chaînes avec une longueur >= 4
   return mots.filter((mot) => mot.length >= 4);
 }
-
-module.exports = filtrerMotsLongs;

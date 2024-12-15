@@ -28,5 +28,3 @@ function capitaliserMots(phrase) {
   // Rejoint les mots transformés en une seule chaîne
   return motsCapitalises.join(" ");
 }
-
-module.exports = capitaliserMots;

@@ -29,5 +29,3 @@ function sontAnagrammes(chaine1, chaine2) {
 
   return trier(chaine1Nettoyee) === trier(chaine2Nettoyee);
 }
-
-module.exports = sontAnagrammes;
