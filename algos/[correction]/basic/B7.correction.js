@@ -26,6 +26,6 @@
 //
 //
 function trierEtudiantsParNote(etudiants) {
-  // Utilise la méthode sort pour trier par note décroissante
-  return etudiants.sort((a, b) => b.note - a.note);
+	// Utilise la méthode sort pour trier par note décroissante
+	return etudiants.sort((a, b) => b.note - a.note);
 }

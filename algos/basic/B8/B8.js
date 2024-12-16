@@ -11,7 +11,8 @@
 // ==> [2, 4, 8, 10]
 
 function trierNombresPairs(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = trierNombresPairs;

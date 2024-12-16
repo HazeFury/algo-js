@@ -11,7 +11,8 @@
 // ==> [2, 4, 6]
 
 function filtrerNombresPairs(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = filtrerNombresPairs;

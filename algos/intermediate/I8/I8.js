@@ -10,7 +10,8 @@
 // Résultat attendu : "tpircSavaJ tse lainég"
 
 function inverserMots(phrase) {
-  // écris le code ici
+	// écris le code ici
+	return phrase;
 }
 
 module.exports = inverserMots;

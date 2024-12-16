@@ -18,8 +18,8 @@
 //
 //
 function filtrerMotsMajuscule(mots) {
-  // Utilise la méthode filter pour garder uniquement les mots qui commencent par une majuscule.
-  return mots.filter((mot) => /^[A-Z]/.test(mot));
+	// Utilise la méthode filter pour garder uniquement les mots qui commencent par une majuscule.
+	return mots.filter((mot) => /^[A-Z]/.test(mot));
 }
 //
 //
@@ -28,20 +28,20 @@ function filtrerMotsMajuscule(mots) {
 //
 
 function filtrerMotsMajuscule2(mots) {
-  // Initialise un tableau vide pour stocker les mots avec une majuscule
-  const motsMajuscules = [];
+	// Initialise un tableau vide pour stocker les mots avec une majuscule
+	const motsMajuscules = [];
 
-  // Parcourt le tableau de mots
-  for (let i = 0; i < mots.length; i++) {
-    const mot = mots[i];
+	// Parcourt le tableau de mots
+	for (let i = 0; i < mots.length; i++) {
+		const mot = mots[i];
 
-    // Vérifie si le premier caractère est une majuscule
-    if (mot[0] >= "A" && mot[0] <= "Z") {
-      // La condition mot[0] >= "A" && mot[0] <= "Z" vérifie si le premier caractère se situe entre A et Z dans la table ASCII.
-      motsMajuscules.push(mot); // Ajoute le mot au tableau de résultats
-    }
-  }
+		// Vérifie si le premier caractère est une majuscule
+		if (mot[0] >= "A" && mot[0] <= "Z") {
+			// La condition mot[0] >= "A" && mot[0] <= "Z" vérifie si le premier caractère se situe entre A et Z dans la table ASCII.
+			motsMajuscules.push(mot); // Ajoute le mot au tableau de résultats
+		}
+	}
 
-  // Retourne le tableau final contenant uniquement les mots avec majuscule
-  return motsMajuscules;
+	// Retourne le tableau final contenant uniquement les mots avec majuscule
+	return motsMajuscules;
 }

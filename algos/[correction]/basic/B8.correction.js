@@ -18,9 +18,9 @@
 //
 //
 function trierNombresPairs(nombres) {
-  // Filtre les nombres pairs en utilisant le modulo (%).
-  const nombresPairs = nombres.filter((nombre) => nombre % 2 === 0);
+	// Filtre les nombres pairs en utilisant le modulo (%).
+	const nombresPairs = nombres.filter((nombre) => nombre % 2 === 0);
 
-  // Trie les nombres pairs par ordre croissant.
-  return nombresPairs.sort((a, b) => a - b);
+	// Trie les nombres pairs par ordre croissant.
+	return nombresPairs.sort((a, b) => a - b);
 }

@@ -18,12 +18,12 @@
 //
 //
 function filtrerNombresUniques(nombres) {
-  // Utilise un ensemble (Set) pour supprimer automatiquement les doublons
-  const ensembleUniques = new Set(nombres);
-  // Un objet Set ne stocke que des valeurs uniques, ce qui permet de supprimer les doublons automatiquement.
+	// Utilise un ensemble (Set) pour supprimer automatiquement les doublons
+	const ensembleUniques = new Set(nombres);
+	// Un objet Set ne stocke que des valeurs uniques, ce qui permet de supprimer les doublons automatiquement.
 
-  // Array.from(ensembleUniques) permet de convertir le Set en tableau pour retourner le format attendu.
-  return Array.from(ensembleUniques);
+	// Array.from(ensembleUniques) permet de convertir le Set en tableau pour retourner le format attendu.
+	return Array.from(ensembleUniques);
 }
 
 //
@@ -32,18 +32,18 @@ function filtrerNombresUniques(nombres) {
 //
 //
 function filtrerNombresUniques2(nombres) {
-  // Initialise un tableau vide pour stocker les nombres uniques
-  const uniques = [];
+	// Initialise un tableau vide pour stocker les nombres uniques
+	const uniques = [];
 
-  // Parcourt chaque nombre dans le tableau d'entrée
-  for (let i = 0; i < nombres.length; i++) {
-    const nombre = nombres[i];
+	// Parcourt chaque nombre dans le tableau d'entrée
+	for (let i = 0; i < nombres.length; i++) {
+		const nombre = nombres[i];
 
-    // Vérifie si le nombre n'est pas déjà dans le tableau des uniques
-    if (!uniques.includes(nombre)) {
-      uniques.push(nombre); // Ajoute le nombre si ce n'est pas un doublon
-    }
-  }
+		// Vérifie si le nombre n'est pas déjà dans le tableau des uniques
+		if (!uniques.includes(nombre)) {
+			uniques.push(nombre); // Ajoute le nombre si ce n'est pas un doublon
+		}
+	}
 
-  return uniques; // Retourne le tableau final
+	return uniques; // Retourne le tableau final
 }

@@ -20,26 +20,26 @@
 //
 //
 function verifierParentheses(chaine) {
-  // Initialise un compteur pour suivre les parenthèses ouvertes.
-  let compteur = 0;
+	// Initialise un compteur pour suivre les parenthèses ouvertes.
+	let compteur = 0;
 
-  // Parcourt chaque caractère de la chaîne.
-  for (const char of chaine) {
-    if (char === "(") {
-      // Incrémente le compteur pour chaque parenthèse ouvrante.
-      compteur++;
-    } else if (char === ")") {
-      // Décrémente le compteur pour chaque parenthèse fermante.
-      compteur--;
-      // Si le compteur devient négatif, il y a une parenthèse fermante sans correspondance.
-      if (compteur < 0) {
-        return false;
-      }
-    }
-  }
+	// Parcourt chaque caractère de la chaîne.
+	for (const char of chaine) {
+		if (char === "(") {
+			// Incrémente le compteur pour chaque parenthèse ouvrante.
+			compteur++;
+		} else if (char === ")") {
+			// Décrémente le compteur pour chaque parenthèse fermante.
+			compteur--;
+			// Si le compteur devient négatif, il y a une parenthèse fermante sans correspondance.
+			if (compteur < 0) {
+				return false;
+			}
+		}
+	}
 
-  // Une séquence est valide si le compteur est à zéro après le parcours.
-  return compteur === 0;
+	// Une séquence est valide si le compteur est à zéro après le parcours.
+	return compteur === 0;
 }
 
 module.exports = verifierParentheses;

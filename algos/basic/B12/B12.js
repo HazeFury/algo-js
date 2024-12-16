@@ -11,7 +11,8 @@
 // ==> [1, 9, 25]
 
 function carreDesImpairs(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = carreDesImpairs;

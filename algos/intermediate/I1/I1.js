@@ -11,7 +11,8 @@
 // ==> ["Bonjour", "Lune", "Mer"]
 
 function filtrerMotsMajuscule(mots) {
-  // écris le code ici
+	// écris le code ici
+	return mots;
 }
 
 module.exports = filtrerMotsMajuscule;

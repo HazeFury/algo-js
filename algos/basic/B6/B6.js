@@ -11,7 +11,8 @@
 // ==> 16 (1 + 3 + 5 + 7)
 
 function sommeNombresImpairs(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = sommeNombresImpairs;

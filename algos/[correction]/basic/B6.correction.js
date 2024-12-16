@@ -16,18 +16,18 @@
  * @returns {number} - La somme des nombres impairs.
  */
 function sommeNombresImpairs(nombres) {
-  // Initialise la somme à 0
-  let somme = 0;
+	// Initialise la somme à 0
+	let somme = 0;
 
-  // Parcourt chaque nombre du tableau
-  for (let i = 0; i < nombres.length; i++) {
-    // Vérifie si le nombre est impair
-    if (nombres[i] % 2 !== 0) {
-      // Ajoute le nombre impair à la somme
-      somme += nombres[i];
-    }
-  }
+	// Parcourt chaque nombre du tableau
+	for (let i = 0; i < nombres.length; i++) {
+		// Vérifie si le nombre est impair
+		if (nombres[i] % 2 !== 0) {
+			// Ajoute le nombre impair à la somme
+			somme += nombres[i];
+		}
+	}
 
-  // Retourne la somme totale
-  return somme;
+	// Retourne la somme totale
+	return somme;
 }

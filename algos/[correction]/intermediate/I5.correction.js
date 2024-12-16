@@ -16,12 +16,12 @@
 //
 //
 function cumulerSommes(tableau) {
-  // Initialise une variable pour stocker la somme cumulée
-  let sommeCumulée = 0;
+	// Initialise une variable pour stocker la somme cumulée
+	let sommeCumulée = 0;
 
-  // Retourne un nouveau tableau avec les sommes cumulées
-  return tableau.map((nombre) => {
-    sommeCumulée += nombre; // Ajoute le nombre actuel à la somme cumulée
-    return sommeCumulée; // Retourne la somme cumulée actuelle
-  });
+	// Retourne un nouveau tableau avec les sommes cumulées
+	return tableau.map((nombre) => {
+		sommeCumulée += nombre; // Ajoute le nombre actuel à la somme cumulée
+		return sommeCumulée; // Retourne la somme cumulée actuelle
+	});
 }

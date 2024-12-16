@@ -10,7 +10,8 @@
 // Résultat attendu : [-5, 0, 5]
 
 function remplacerParSommeDesAutres(tableau) {
-  // écris le code ici
+	// écris le code ici
+	return tableau;
 }
 
 module.exports = remplacerParSommeDesAutres;

@@ -16,7 +16,8 @@
 // ==> 72.00
 
 function calculerTotalPanier(panier) {
-  // écris le code ici
+	// écris le code ici
+	return panier;
 }
 
 module.exports = calculerTotalPanier;

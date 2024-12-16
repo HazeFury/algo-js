@@ -9,7 +9,8 @@
 // console.log(cumulerSommes([0, -1, -2]));   ==>  [0, -1, -3]
 
 function cumulerSommes(tableau) {
-  // écris le code ici
+	// écris le code ici
+	return tableau;
 }
 
 module.exports = cumulerSommes;

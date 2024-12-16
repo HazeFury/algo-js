@@ -26,18 +26,18 @@
 //
 //
 function calculerTotalPanier(panier) {
-  // Déclare la constante pour la TVA (20 % sous forme décimale).
-  const TVA = 0.2;
+	// Déclare la constante pour la TVA (20 % sous forme décimale).
+	const tva = 0.2;
 
-  // Initialise la variable pour stocker le total TTC.
-  let total = 0;
+	// Initialise la variable pour stocker le total TTC.
+	let total = 0;
 
-  // Parcourt chaque article du panier.
-  panier.forEach((article) => {
-    // Ajoute le prix TTC de l'article au total.
-    total += article.prix * (1 + TVA);
-  });
+	// Parcourt chaque article du panier.
+	panier.forEach((article) => {
+		// Ajoute le prix TTC de l'article au total.
+		total += article.prix * (1 + tva);
+	});
 
-  // Retourne le total arrondi à deux décimales.
-  return parseFloat(total.toFixed(2));
+	// Retourne le total arrondi à deux décimales.
+	return Number.parseFloat(total.toFixed(2));
 }

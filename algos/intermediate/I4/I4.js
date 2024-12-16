@@ -11,7 +11,8 @@
 // ==> [1, 2, 3, 4, 5]
 
 function filtrerNombresUniques(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = filtrerNombresUniques;

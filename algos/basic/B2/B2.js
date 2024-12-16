@@ -11,7 +11,8 @@
 // ==> "tpircsavaj"
 
 function inverserChaine(chaine) {
-  // écris le code ici
+	// écris le code ici
+	return chaine;
 }
 
 module.exports = inverserChaine;

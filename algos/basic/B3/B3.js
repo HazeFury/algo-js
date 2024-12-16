@@ -11,7 +11,8 @@
 // ==> 25
 
 function calculerMoyenne(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = calculerMoyenne;

@@ -21,15 +21,15 @@
 //
 //
 function filtrerNombresPremiers(nombres) {
-  return nombres.filter((n) => {
-    if (n < 2) {
-      return false; // Les nombres inférieurs à 2 ne sont pas premiers.
-    }
-    for (let i = 2; i <= Math.sqrt(n); i++) {
-      if (n % i === 0) {
-        return false; // Si divisible par un nombre autre que 1 et lui-même.
-      }
-    }
-    return true; // Si aucun diviseur trouvé, le nombre est premier.
-  });
+	return nombres.filter((n) => {
+		if (n < 2) {
+			return false; // Les nombres inférieurs à 2 ne sont pas premiers.
+		}
+		for (let i = 2; i <= Math.sqrt(n); i++) {
+			if (n % i === 0) {
+				return false; // Si divisible par un nombre autre que 1 et lui-même.
+			}
+		}
+		return true; // Si aucun diviseur trouvé, le nombre est premier.
+	});
 }

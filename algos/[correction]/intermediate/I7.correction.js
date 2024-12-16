@@ -15,9 +15,9 @@
  * @returns {number[]} - Nouveau tableau avec les entiers remplacés.
  */
 function remplacerParSommeDesAutres(tableau) {
-  // Calculer la somme totale des éléments du tableau
-  const sommeTotale = tableau.reduce((acc, valeur) => acc + valeur, 0);
+	// Calculer la somme totale des éléments du tableau
+	const sommeTotale = tableau.reduce((acc, valeur) => acc + valeur, 0);
 
-  // Remplacer chaque élément par la somme des autres
-  return tableau.map((valeur) => sommeTotale - valeur);
+	// Remplacer chaque élément par la somme des autres
+	return tableau.map((valeur) => sommeTotale - valeur);
 }

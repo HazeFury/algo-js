@@ -18,6 +18,6 @@
 //
 //
 function inverserChaine(chaine) {
-  // Transforme la chaîne en tableau, inverse le tableau, et le retransforme en chaîne.
-  return chaine.split("").reverse().join("");
+	// Transforme la chaîne en tableau, inverse le tableau, et le retransforme en chaîne.
+	return chaine.split("").reverse().join("");
 }

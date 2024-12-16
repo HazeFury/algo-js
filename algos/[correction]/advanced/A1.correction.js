@@ -16,34 +16,34 @@
  * @returns {Array<number>} - Le sous-tableau avec la plus longue séquence.
  */
 function plusLongueSequence(nombres) {
-  if (nombres.length === 0) return [];
+	if (nombres.length === 0) return [];
 
-  // Convertir le tableau en ensemble pour des recherches rapides
-  const setNombres = new Set(nombres);
+	// Convertir le tableau en ensemble pour des recherches rapides
+	const setNombres = new Set(nombres);
 
-  let meilleureSequence = [];
+	let meilleureSequence = [];
 
-  // Parcourir chaque nombre pour détecter le début d'une séquence
-  for (const num of setNombres) {
-    // Si le nombre précédent n'existe pas, c'est le début d'une séquence
-    if (!setNombres.has(num - 1)) {
-      let currentNum = num;
-      const currentSequence = [];
+	// Parcourir chaque nombre pour détecter le début d'une séquence
+	for (const num of setNombres) {
+		// Si le nombre précédent n'existe pas, c'est le début d'une séquence
+		if (!setNombres.has(num - 1)) {
+			let currentNum = num;
+			const currentSequence = [];
 
-      // Construire la séquence consécutive
-      while (setNombres.has(currentNum)) {
-        currentSequence.push(currentNum);
-        currentNum++;
-      }
+			// Construire la séquence consécutive
+			while (setNombres.has(currentNum)) {
+				currentSequence.push(currentNum);
+				currentNum++;
+			}
 
-      // Mettre à jour la meilleure séquence trouvée
-      if (currentSequence.length > meilleureSequence.length) {
-        meilleureSequence = currentSequence;
-      }
-    }
-  }
+			// Mettre à jour la meilleure séquence trouvée
+			if (currentSequence.length > meilleureSequence.length) {
+				meilleureSequence = currentSequence;
+			}
+		}
+	}
 
-  return meilleureSequence.sort((a, b) => a - b); // Optionnel : trier pour un ordre croissant
+	return meilleureSequence.sort((a, b) => a - b); // Optionnel : trier pour un ordre croissant
 }
 
 module.exports = plusLongueSequence;

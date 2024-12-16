@@ -7,7 +7,8 @@
 // console.log(sontAnagrammes("hello", "world")); // false
 
 function sontAnagrammes(chaine1, chaine2) {
-  // écris le code ici
+	// écris le code ici
+	return chaine1 + chaine2;
 }
 
 module.exports = sontAnagrammes;

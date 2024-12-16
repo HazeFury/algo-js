@@ -10,7 +10,8 @@
 // Résultat attendu : "JSaaciprt est aégiln"
 
 function trierLettres(phrase) {
-  // écris le code ici
+	// écris le code ici
+	return phrase;
 }
 
 module.exports = trierLettres;

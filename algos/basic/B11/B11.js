@@ -12,7 +12,8 @@
 // ==> "Bonjour Tout Le Monde"
 
 function capitaliserMots(phrase) {
-  // écris le code ici
+	// écris le code ici
+	return phrase;
 }
 
 module.exports = capitaliserMots;

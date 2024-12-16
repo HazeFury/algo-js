@@ -19,7 +19,8 @@
 // ]
 
 function trierEtudiantsParNote(etudiants) {
-  // écris le code ici
+	// écris le code ici
+	return etudiants;
 }
 
 module.exports = trierEtudiantsParNote;

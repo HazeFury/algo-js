@@ -15,17 +15,17 @@
  * @returns {string} - La phrase avec chaque mot ayant ses lettres triées.
  */
 function trierLettres(phrase) {
-  // Découpe la phrase en mots, en utilisant l'espace comme séparateur.
-  const mots = phrase.split(" ");
+	// Découpe la phrase en mots, en utilisant l'espace comme séparateur.
+	const mots = phrase.split(" ");
 
-  // Trie les lettres de chaque mot.
-  const motsTries = mots.map((mot) => {
-    // Convertit le mot en tableau de caractères, trie les lettres, puis reconstitue le mot.
-    return mot.split("").sort().join("");
-  });
+	// Trie les lettres de chaque mot.
+	const motsTries = mots.map((mot) => {
+		// Convertit le mot en tableau de caractères, trie les lettres, puis reconstitue le mot.
+		return mot.split("").sort().join("");
+	});
 
-  // Reconstitue la phrase avec les mots triés.
-  return motsTries.join(" ");
+	// Reconstitue la phrase avec les mots triés.
+	return motsTries.join(" ");
 }
 
 module.exports = trierLettres;

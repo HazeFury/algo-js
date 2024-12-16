@@ -17,8 +17,8 @@
 //
 //
 function inverserChaines(tableau) {
-  return tableau.map((chaine) => {
-    // Divise la chaîne en caractères, les inverse, puis les rejoint
-    return chaine.split("").reverse().join("");
-  });
+	return tableau.map((chaine) => {
+		// Divise la chaîne en caractères, les inverse, puis les rejoint
+		return chaine.split("").reverse().join("");
+	});
 }

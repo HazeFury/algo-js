@@ -18,12 +18,12 @@
 //
 //
 function inverserMots(phrase) {
-  // Découpe la phrase en mots en utilisant l'espace comme délimiteur.
-  const mots = phrase.split(" ");
+	// Découpe la phrase en mots en utilisant l'espace comme délimiteur.
+	const mots = phrase.split(" ");
 
-  // Inverse chaque mot individuellement.
-  const motsInverses = mots.map((mot) => mot.split("").reverse().join(""));
+	// Inverse chaque mot individuellement.
+	const motsInverses = mots.map((mot) => mot.split("").reverse().join(""));
 
-  // Reconstitue la phrase avec les mots inversés.
-  return motsInverses.join(" ");
+	// Reconstitue la phrase avec les mots inversés.
+	return motsInverses.join(" ");
 }

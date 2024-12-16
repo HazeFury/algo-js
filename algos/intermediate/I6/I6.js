@@ -10,7 +10,8 @@
 // Résultat attendu : ["321", "cba", ""]
 
 function inverserChaines(tableau) {
-  // écris le code ici
+	// écris le code ici
+	return tableau;
 }
 
 module.exports = inverserChaines;

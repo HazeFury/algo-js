@@ -13,19 +13,19 @@
  * @returns {boolean} - True si les chaînes sont des anagrammes, sinon false.
  */
 function sontAnagrammes(chaine1, chaine2) {
-  // Nettoie les chaînes : supprime les espaces et met en minuscules
-  const nettoyer = (chaine) => chaine.toLowerCase().replace(/\s+/g, "");
+	// Nettoie les chaînes : supprime les espaces et met en minuscules
+	const nettoyer = (chaine) => chaine.toLowerCase().replace(/\s+/g, "");
 
-  const chaine1Nettoyee = nettoyer(chaine1);
-  const chaine2Nettoyee = nettoyer(chaine2);
+	const chaine1Nettoyee = nettoyer(chaine1);
+	const chaine2Nettoyee = nettoyer(chaine2);
 
-  // Si les longueurs diffèrent, ce ne sont pas des anagrammes
-  if (chaine1Nettoyee.length !== chaine2Nettoyee.length) {
-    return false;
-  }
+	// Si les longueurs diffèrent, ce ne sont pas des anagrammes
+	if (chaine1Nettoyee.length !== chaine2Nettoyee.length) {
+		return false;
+	}
 
-  // Trie les lettres et compare les chaînes
-  const trier = (chaine) => chaine.split("").sort().join("");
+	// Trie les lettres et compare les chaînes
+	const trier = (chaine) => chaine.split("").sort().join("");
 
-  return trier(chaine1Nettoyee) === trier(chaine2Nettoyee);
+	return trier(chaine1Nettoyee) === trier(chaine2Nettoyee);
 }

@@ -18,6 +18,6 @@
 //
 //
 function carreDesImpairs(nombres) {
-  // Filtre les nombres impairs, puis calcule leur carré
-  return nombres.filter((n) => n % 2 !== 0).map((n) => n ** 2);
+	// Filtre les nombres impairs, puis calcule leur carré
+	return nombres.filter((n) => n % 2 !== 0).map((n) => n ** 2);
 }

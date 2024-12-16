@@ -18,19 +18,19 @@
 //
 //
 function calculerMoyenne(nombres) {
-  // Vérifie si le tableau est vide
-  if (nombres.length === 0) {
-    return 0;
-  }
+	// Vérifie si le tableau est vide
+	if (nombres.length === 0) {
+		return 0;
+	}
 
-  // Calcule la somme des éléments du tableau
-  const somme = nombres.reduce(
-    (accumulateur, nombre) => accumulateur + nombre,
-    0
-  );
+	// Calcule la somme des éléments du tableau
+	const somme = nombres.reduce(
+		(accumulateur, nombre) => accumulateur + nombre,
+		0,
+	);
 
-  // Retourne la moyenne (somme divisée par le nombre d'éléments)
-  return somme / nombres.length;
+	// Retourne la moyenne (somme divisée par le nombre d'éléments)
+	return somme / nombres.length;
 }
 //
 //
@@ -38,19 +38,19 @@ function calculerMoyenne(nombres) {
 //
 //
 function calculerMoyenne2(nombres) {
-  // Vérifie si le tableau est vide
-  if (nombres.length === 0) {
-    return 0;
-  }
+	// Vérifie si le tableau est vide
+	if (nombres.length === 0) {
+		return 0;
+	}
 
-  // Initialise une variable pour stocker la somme des nombres
-  let somme = 0;
+	// Initialise une variable pour stocker la somme des nombres
+	let somme = 0;
 
-  // Parcourt chaque nombre du tableau et l'ajoute à la somme
-  for (let i = 0; i < nombres.length; i++) {
-    somme += nombres[i];
-  }
+	// Parcourt chaque nombre du tableau et l'ajoute à la somme
+	for (let i = 0; i < nombres.length; i++) {
+		somme += nombres[i];
+	}
 
-  // Calcule et retourne la moyenne
-  return somme / nombres.length;
+	// Calcule et retourne la moyenne
+	return somme / nombres.length;
 }

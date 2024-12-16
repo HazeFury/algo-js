@@ -9,7 +9,8 @@
 // console.log(estPalindrome("A man a plan a canal Panama")); // true
 
 function estPalindrome(chaine) {
-  // écris le code ici
+	// écris le code ici
+	return chaine;
 }
 
 module.exports = estPalindrome;

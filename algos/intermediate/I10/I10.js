@@ -13,7 +13,8 @@
 // console.log(verifierParentheses("()()")); // true
 
 function verifierParentheses(chaine) {
-  // Écris le code ici
+	// Écris le code ici
+	return chaine;
 }
 
 module.exports = verifierParentheses;

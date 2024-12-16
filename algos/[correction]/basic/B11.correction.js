@@ -16,15 +16,15 @@
  * @returns {string} - La chaîne avec chaque mot capitalisé.
  */
 function capitaliserMots(phrase) {
-  // Sépare la chaîne en mots en utilisant les espaces comme séparateurs
-  const mots = phrase.split(" ");
+	// Sépare la chaîne en mots en utilisant les espaces comme séparateurs
+	const mots = phrase.split(" ");
 
-  // Transforme chaque mot pour commencer par une majuscule
-  const motsCapitalises = mots.map((mot) => {
-    if (mot.length === 0) return ""; // Ignore les mots vides
-    return mot[0].toUpperCase() + mot.slice(1).toLowerCase();
-  });
+	// Transforme chaque mot pour commencer par une majuscule
+	const motsCapitalises = mots.map((mot) => {
+		if (mot.length === 0) return ""; // Ignore les mots vides
+		return mot[0].toUpperCase() + mot.slice(1).toLowerCase();
+	});
 
-  // Rejoint les mots transformés en une seule chaîne
-  return motsCapitalises.join(" ");
+	// Rejoint les mots transformés en une seule chaîne
+	return motsCapitalises.join(" ");
 }

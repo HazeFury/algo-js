@@ -14,7 +14,8 @@
 // ==> [2, 3, 5, 7]
 
 function filtrerNombresPremiers(nombres) {
-  // écris le code ici
+	// écris le code ici
+	return nombres;
 }
 
 module.exports = filtrerNombresPremiers;

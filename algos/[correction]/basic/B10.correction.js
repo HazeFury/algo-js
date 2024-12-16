@@ -16,22 +16,22 @@
  * @returns {number} - Le nombre total de voyelles.
  */
 function compterVoyelles(mots) {
-  // Déclare les voyelles
-  const voyelles = "aeiouy";
+	// Déclare les voyelles
+	const voyelles = "aeiouy";
 
-  // Initialise un compteur
-  let totalVoyelles = 0;
+	// Initialise un compteur
+	let totalVoyelles = 0;
 
-  // Parcourt chaque mot du tableau
-  mots.forEach((mot) => {
-    // Parcourt chaque caractère du mot
-    for (let char of mot.toLowerCase()) {
-      // Vérifie si le caractère est une voyelle
-      if (voyelles.includes(char)) {
-        totalVoyelles++;
-      }
-    }
-  });
+	// Parcourt chaque mot du tableau
+	mots.forEach((mot) => {
+		// Parcourt chaque caractère du mot
+		for (const char of mot.toLowerCase()) {
+			// Vérifie si le caractère est une voyelle
+			if (voyelles.includes(char)) {
+				totalVoyelles++;
+			}
+		}
+	});
 
-  return totalVoyelles;
+	return totalVoyelles;
 }
