@@ -10,9 +10,9 @@
 //
 // ==> 11
 
-function compterVoyelles(chaine) {
-	// écris le code ici
-	return chaine;
+function compterVoyelles(mots) {
+  // écris le code ici
+  return mots;
 }
 
 module.exports = compterVoyelles;

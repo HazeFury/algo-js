@@ -11,8 +11,8 @@
 // ==> ["chat", "chien", "souris"]
 
 function filtrerMotsLongs(mots) {
-	// écris le code ici
-	return mots;
+  // écris le code ici
+  return mots;
 }
 
 module.exports = filtrerMotsLongs;
