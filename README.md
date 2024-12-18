@@ -58,9 +58,9 @@ Chaque algorithme est organisé en trois fichiers principaux :
 
 Les exercices sont divisés en trois niveaux pour assurer une progression pédagogique :
 
-- **Basique (B)** : Concepts fondamentaux.
-- **Intermédiaire (I)** : Problèmes impliquant plusieurs étapes ou concepts combinés.
-- **Avancé (A)** : Problèmes complexes nécessitant une réflexion approfondie et une optimisation.
+- **Basique (B)** : Concepts fondamentaux. ***(./algos/basic)***
+- **Intermédiaire (I)** : Problèmes impliquant plusieurs étapes ou concepts combinés. ***(./algos/intermediate)***
+- **Avancé (A)** : Problèmes complexes nécessitant une réflexion approfondie et une optimisation. ***(./algos/advanced)***
 
 ---
 
