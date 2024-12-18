@@ -1,26 +1,3 @@
-<!-- # Algo JS par HazeFury
-
-Ce repo contient des exercices d'algorithmie pour 3 niveaux différents (basique /intermédiaire / avancé)
-
-## Comment l'installer ? 
-
-- cloner ce repo 
-- placer-vous dans le dossier du projet
-- installer les dépendances avec la commande : `npm install`
-- vous êtes prêt à coder :) 
-
-## Comment l'utiliser ? 
-
-Commencez par ouvrir le fichier d'un algo dans votre IDE préféré puis, après avoir lu la consigne, modifier le contenu de la fonction
-
-![exemple-algo-B1](assets/image-1.png)
-
-Pour lancer les tests de tous les algos (sur tout les fichiers) : `npm run tests` 
-
-Pour lancer le les test sur un seul fichier : `npm run test:one {NomDuFichierTest}` 
-exemple : `npm run test:one B1.test.js`
-
- -->
 # Projet d'Algorithmie en JavaScript
 
 Bienvenue dans ce projet d'algorithmie en JavaScript, conçu pour les débutants et les développeurs souhaitant renforcer leurs compétences en logique et en programmation. Ce projet propose des exercices progressifs, classés par niveau de difficulté, avec des tests automatisés pour valider vos solutions.
@@ -101,6 +78,10 @@ Lancer les tests pour un exercice spécifique :
 # npm run test:one {NomDuFichierTest}
 
 npm run test:one B1.test.js
+
+# ⚠️ ATTENTION ⚠️: Sur Mac ou Linux, si la commande ci-dessus ne fonctionne pas, taper la commande suivante : 
+
+npx jest basic/B1/B1.test.js
 ```
 
 Linter et formater le projet avec Biome :
