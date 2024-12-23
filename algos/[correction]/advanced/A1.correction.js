@@ -46,4 +46,3 @@ function plusLongueSequence(nombres) {
 	return meilleureSequence.sort((a, b) => a - b); // Optionnel : trier pour un ordre croissant
 }
 
-module.exports = plusLongueSequence;
